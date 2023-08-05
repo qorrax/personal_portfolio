@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-gray-800 py-4">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <Link to="/" className="text-white text-2xl font-semibold">
+          <Link to="/" className="text-white text-3xl font-semibold">
             My Portfolio
           </Link>
           <div className="hidden md:flex space-x-4">
@@ -42,6 +42,11 @@ const Navbar = () => {
               Contact
             </NavLink>
           </div>
+
+           
+
+
+
         </div>
       </div>
     </nav>
