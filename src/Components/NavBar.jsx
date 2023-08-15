@@ -43,10 +43,7 @@ const Navbar = () => {
             </NavLink>
           </div>
 
-           
-
-
-
+          
         </div>
       </div>
     </nav>

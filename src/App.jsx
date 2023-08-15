@@ -1,17 +1,34 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import NavBar from './Components/NavBar'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-     <NavBar />
     
-    
-  )
-}
+  import React from 'react';
+  import {  Router, Route, Routes } from 'react-router-dom';
+  import NavBar from './Components/NavBar';
+  
+  // Components for different routes
+  const Home = () => <div>Home Page</div>;
+  const Skills = () => <div>Skills Page</div>;
+  const Projects = () => <div>Projects Page</div>;
+  const Contact = () => <div>Contact Page</div>;
+  
+  const App = () => {
+    return (
+      
+      <div>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+  
+          {/* Add a catch-all route */}
+          <Route path="*" element={<Home />} />
+        </Routes>
 
-export default App
+      </div>
+      
+    );
+  };
+  
+  export default App;
+  
