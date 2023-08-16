@@ -42,6 +42,7 @@ const Navbar = () => {
               Contact
             </NavLink>
           </div>
+          
 
           
         </div>
@@ -51,3 +52,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
