@@ -1,8 +1,10 @@
 
     
   import React from 'react';
-  import {  Router, Route, Routes } from 'react-router-dom';
+  import { Routes, Route } from 'react-router-dom';
+  import 'bootstrap/dist/css/bootstrap.min.css';
   import NavBar from './Components/NavBar';
+  // import './App.scss';
   
   // Components for different routes
   const Home = () => <div>Home Page</div>;
