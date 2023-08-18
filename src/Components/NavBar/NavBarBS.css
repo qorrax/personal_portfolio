@@ -1,0 +1,16 @@
+
+
+/* NavBarBS.css */
+/* Center the navbar content when collapsed */
+@media (max-width: 991px) {
+    .navbar-collapse {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    /* Additional style to remove default left padding */
+    .navbar-nav {
+      padding-left: 0;
+    }
+  }
