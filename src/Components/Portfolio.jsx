@@ -1,12 +1,18 @@
 
 
 import React from 'react'
+import Home from './Home'
 
 function Portfolio() {
 
     
   return (
-    <div>Portfolio</div>
+    
+    <div>
+    <p>Portfolio here </p>
+     <Home />
+
+  </div>
   )
 }
 

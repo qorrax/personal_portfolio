@@ -19,7 +19,8 @@ const NavBarBS = () => {
         data-bs-theme="dark"
         expand="lg"
         expanded={expanded} // Pass the expanded state to the Navbar component
-      >
+        
+        >
         <Container>
           <Navbar.Brand href="#home">Navbar</Navbar.Brand>
           <Navbar.Toggle
