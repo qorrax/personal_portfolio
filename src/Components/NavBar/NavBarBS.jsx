@@ -52,5 +52,3 @@ const NavBarBS = () => {
 
 export default NavBarBS;
 
-
-
