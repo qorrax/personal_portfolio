@@ -1,32 +1,20 @@
-  import rentme from "./images/rentme.png";
-  import techjobs from "./images/techjobs.png";
+//   import rentme from "../images/rentme.png";
+  import tech from "../Components/images/tech.png";
 
  const data=[
-    {
-        id:1,
-        name:"React JS Application",
-        image:rentme,
-        github:"",
-        live:"",
-    },
+    
     {
         id:2,
         name:"React JS Application",
-        image:techjobs,
+        image:tech,
         github:"",
         live:"",
     },
-    {
-        id:3,
-        name:"React JS Application",
-        image:rentme,
-        github:"",
-        live:"",
-    },
+    
     {
         id:4,
         name:"React JS Application",
-        image:techjobs,
+        image:tech,
         github:"",
         live:"",
     },

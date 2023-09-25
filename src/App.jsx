@@ -33,7 +33,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBarBS from './Components/NavBar/NavBarBS';
 import Footer from './Components/Footer'; // Import the Footer component
 import Home from './Components/About';
-import Portfolio from './Components/Projects';
+// import Projects  from './Components/Projects';
 import Skills from './Components/Skills';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects'; // Correct the import case
