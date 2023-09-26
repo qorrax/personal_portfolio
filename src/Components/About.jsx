@@ -3,6 +3,8 @@ import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi'
 import Footer from './Footer';
 import Skills from './Skills';
+import Projects from './Projects';
+
 
 
 
@@ -35,6 +37,8 @@ import Skills from './Skills';
             </button>
           </div>
           <Skills />
+          <Projects />
+          
           
         </div>
         <Footer />
