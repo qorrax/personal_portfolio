@@ -171,6 +171,12 @@
 import React from 'react';
 import { Container, Row, Col, Card, CardImg, CardBody, CardTitle, CardText, Button } from 'reactstrap';
 import tech from "./images/tech.png";
+import workimg from "./images/work.png";
+import project1Img from "./images/project1Img.png";
+import rev from "./images/rev.png";
+
+
+
 
 const projectsData = [
 
@@ -199,7 +205,7 @@ const projectsData = [
   {
     title: 'Project 2',
     description: 'Description for Project 2',
-    imageUrl: tech, // Imported image
+    imageUrl: workimg,// Imported image
     githubLink: 'https://github.com/qorrax/job-finder/tree/job-web', // GitHub link
     liveLink: 'https://tech-job.netlify.app/', // Live website link
   },
@@ -214,7 +220,7 @@ const projectsData = [
   {
     title: 'Project 2',
     description: 'Description for Project 2',
-    imageUrl: tech, // Imported image
+    imageUrl: rev,// Imported image
     githubLink: 'https://github.com/qorrax/job-finder/tree/job-web', // GitHub link
     liveLink: 'https://tech-job.netlify.app/', // Live website link
   },
