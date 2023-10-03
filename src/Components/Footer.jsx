@@ -77,8 +77,8 @@ const Footer = () => {
   const year = new Date().getFullYear();
   return (
     <footer className="bg-[#0a192f]">
-      <div className="bg-[#1b1e29] py-8 mt-0">
-        <div className="container flex flex-col items-center justify-center sm:flex-row sm:justify-between">
+      <div className="bg-[#1b1e29] py-8 pr-60 mt-0">
+        <div className="container flex flex-col items-center justify-center sm:flex-row sm:justify-between  ">
           <div className="hidden sm:block">
             <div className="flex items-center gap-[10px]"></div>
           </div>

@@ -40,23 +40,20 @@ const About = () => {
         </div>
       </div>
 
-      {/* <div className='bg-[#0a192f]'>
-        {showProjects && <Projects />}
-        <Skills />
-        <Contact />
-      </div> */}
+    
       <div className='bg-[#0a192f]'>
-  {showProjects && <Projects />}
-  <div className='p-4 md:p-8 lg:p-12'>
-    <Skills />
-    <div className='my-4 lg:my-8'></div> {/* Add margin for separation */}
-    <Contact />
-  </div>
-</div>
+          {showProjects && <Projects />}
+             <div className='p-4 md:p-8 lg:p-8'>
+            <Skills/>
+            <div className='lg:my-4' ></div> {/* Add margin for separation */}
+            <Contact />
+          </div>
+           </div>
 
     </div>
   );
 };
 
 export default About;
+
 

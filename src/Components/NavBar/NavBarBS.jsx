@@ -28,7 +28,7 @@ const NavBarBS = () => {
             onClick={handleNavToggle}
           />
           <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="ml-auto"> {/* Use "ml-auto" to move the Nav elements to the right */}
+            <Nav className="ml-auto mr-20"> {/* Use "ml-auto" to move the Nav elements to the right */}
               <Nav.Link as={Link} to="/About">
                 About
               </Nav.Link>
